@@ -1,0 +1,54 @@
+gta6-meme-x-01-v6 — local grade (measured, 23 Nov 2026)
+
+Concept
+- WANTED poster (Leonida Police Department) — the ONLY wanted-poster
+  genre in the live top 50 (bedah 23 Nov 18:10: eviction, receipt,
+  funeral, parking, boarding pass, hospital, obituary, power bill,
+  storage, impounded, penitentiary, library, DMV, sick note, hotel,
+  divorce, birth certificate, booking photo all taken).
+- The make.fun ghost IS the mugshot: 280px wide = ~26% of frame
+  (top-1 benchmark ~25%), centre, against a police height chart
+  (7 FT / 6 FT / 5 FT / 4 FT / 3 FT). Second small ghost in the
+  magenta banner, as in the winning template.
+- Punchline in one line: REWARD: ONE (1) COPY OF GRAND THEFT AUTO VI
+  — ALREADY CLAIMED BY MY AI AGENT ON MAKE.FUN.
+
+Files
+- gen_meme.py: deterministic, no network, no clock (Pillow, DejaVu)
+- meme.png: 84,587 bytes, 1080x1080, RGB (opaque, no alpha)
+- meme-480.png: 480x480, RGB
+- main.ts: 539 bytes (Node stdlib only; verified: copies POST.json)
+- POST.json: 59 bytes (placeholder URL, to be replaced after X post)
+- README.md: 3 live make.fun badges, repo gta6-meme-x-01-v6
+- LICENSE: MIT
+- caption.txt: 173 chars (limit 280 — PASS); carries make.fun,
+  @makefunai, play code makefun-robin-oyster-bagel, earn-money pitch
+- title.txt: 78 chars — specific fake document + exact numbers
+
+Determinism
+- gen_meme.py run 3x: identical meme.png bytes every time
+  (sha256 bdcceef55687e6a0803166541b101741e5c6be42532f86198c1b5595646ed8fe)
+
+480px visual check (meme-480.png, viewed)
+- Every line fits: header, WANTED, 5 stars, mugshot box, name, alias,
+  all 3 charge lines, both reward lines, banner text, make.fun pill,
+  footer — no clipping.
+- Ghost recognisable at 480px: white body, thick black outline, two
+  black four-pointed sparkle eyes, round hand holding a magenta coin
+  + white star. Bottom bumps read as a ghost (fixed after first
+  render: deeper bumps, near-square proportions).
+- Number echo present: 4,811 days, 13 years (alias "never left"),
+  5 stars, 17 Sep 2013 (header EST. 2013), Jason & Lucia, 214 GB
+  (not used — poster has no storage line; 4,811 + 5 stars + dates
+  carry the numbers), FORM W-13.
+- No dead space: the poster fills the frame top to bottom.
+
+Gain vs v5 (live judge 0.855318, rank 325)
+- New genre (wanted poster vs hospital bill — hospital bill already
+  sits at rank 7, 28, 29).
+- Ghost 16% -> ~26% of frame width; ghost is the scene, not a sticker.
+- One-line punchline (reward = GTA VI itself) vs 6 charge lines.
+- Twist total (reward already claimed) vs straight sum $2,207.38.
+
+Not verified here (parent's steps)
+- GitHub repo creation, X post + POST.json URL replacement, submit.
